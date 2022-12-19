@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: rgb(58, 61, 64);
+    background-image: linear-gradient(rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: rgb(0 0 0 / 40%) 0px 2px 0px;
+    background: radial-gradient(circle, rgb(167, 29, 49) 35%, rgb(63, 13, 18) 100%);
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+#sigma-logo-header {
+    width: 4rem;
+}
+
+main {
+    padding-top: 5.5rem;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-family: 'Bomber TV Wide', sans-serif;
+    color: #DC9F38;
+    border-bottom: 1px solid white;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.statistics {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+}
+
+.profile-photo-link {
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    transition: 0.2s;
+}
+
+a {
+    transition: 0.2s;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.profile-photo {
+    width: 15rem;
+    height: 13rem;
+}
+
+.money-made {
+    font-style: italic;
+    color: #FF0000;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 0.5rem;
+}
+
+#flying-dollars, #typography {
+    margin-top: 0.5rem;
+    width: 15rem;
+    height: 13rem;
+    display: none;
+}
+
+.quote, .quote-mobile-only {
+    font-family: 'Josefin-slab', sans-serif;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: inline-block;
+    width: 80%;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+#about-us-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    background-color: #750000;
+}
+
+.no-italic {
+    font-style: normal;
+}
+
+.paragraph {
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    font-style: italic;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.paragraph:first-of-type {
+    margin-top: 0;
+}
+
+#monthly-statistics-section {
+    margin-top: 2rem;
+}
+
+#monthly-statistics-section h1 {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5rem;
+}
+
+.month {
+    color: white;
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.money-made-monthly {
+    font-style: italic;
+    color: #FF0000;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+.dollar-green {
+    color: #85bb65;
+}
+
+#monthly-statistics-section {
+    padding: 0.5 1rem;
+    margin-bottom: 1rem;
+}
+
+.monthly-statistics-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.monthly-statistics-container {
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .paragraph {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .paragraph {
+        margin-top: 1.5rem;
+        width: 50%;
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    #flying-dollars {
+        display: block;
+    }
+
+    #typography {
+        display: block;
+    }
+
+    .quote-mobile-only {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .paragraph {
+        width: 35rem;
+    }
+}
