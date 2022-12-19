@@ -5,6 +5,7 @@
 
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,18 +21,45 @@ header {
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 99999999999999999999;
     box-shadow: rgb(0 0 0 / 40%) 0px 2px 0px;
     background: radial-gradient(circle, rgb(167, 29, 49) 35%, rgb(63, 13, 18) 100%);
     width: 100%;
     padding: 0.5rem 0;
 }
 
+.nav-bar {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin-left: 2rem;
+    transition: 0.2s;
+}
+
+.nav-bar li:hover {
+    transform: scale(1.05);
+}
+
+.nav-bar-link {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 #sigma-logo-header {
     width: 4rem;
 }
 
-main {
-    padding-top: 5.5rem;
+#statistics-section {
+    padding-top: 5rem;
 }
 
 .grid-container {
@@ -118,7 +146,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 0.5rem;
+    padding: 1rem 2rem;
     background-color: #750000;
 }
 
@@ -218,6 +246,22 @@ a:hover {
 
     .quote-mobile-only {
         display: none;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    #sigma-logo-header {
+        margin-right: 2rem;
+    }
+
+    #about-us-section {
+        padding: 6rem 0;
     }
 }
 
