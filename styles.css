@@ -170,6 +170,9 @@ a:hover {
 
 #monthly-statistics-section {
     margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
 }
 
 #monthly-statistics-section h1 {
@@ -195,11 +198,6 @@ a:hover {
 
 .dollar-green {
     color: #85bb65;
-}
-
-#monthly-statistics-section {
-    padding: 0.5 1rem;
-    margin-bottom: 1rem;
 }
 
 .monthly-statistics-grid {
