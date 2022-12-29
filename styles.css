@@ -272,7 +272,7 @@ a {
 
 @media screen and (min-width: 375px) {
     .data-container {
-        width: 28rem;
+        width: 30rem;
     }
 
     .data, .quote {
