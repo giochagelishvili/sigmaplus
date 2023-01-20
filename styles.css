@@ -13,7 +13,8 @@ html {
 body {
     background-attachment: fixed;
     background-color: rgb(58, 61, 64);
-    background-image: linear-gradient(rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+    background-image: radial-gradient(circle, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+    background-repeat: no-repeat;
     overflow-x: hidden;
 }
 
