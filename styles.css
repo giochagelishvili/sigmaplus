@@ -141,6 +141,7 @@ a {
     text-align: center;
     font-weight: 400;
     font-size: 1.6rem;
+    margin-top: 0.5rem;
 }
 
 .data:last-of-type {
@@ -255,6 +256,10 @@ a {
 
 .dollar-green {
     color: #85bb65;
+}
+
+.success-green {
+    color: #4BB543;
 }
 
 .monthly-statistics-grid {
