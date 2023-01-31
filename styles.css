@@ -152,6 +152,10 @@ a {
     color: red;
 }
 
+.fail-red {
+    color: #FC100D;
+}
+
 .quote {
     font-family: 'Josefin-slab', serif;
     font-style: italic;
