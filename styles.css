@@ -134,9 +134,16 @@ a {
     font-size: 3rem;
 }
 
+.orange {
+    color: #E66C2C;
+}
+
+.white {
+    color: white;
+}
+
 .data {
     font-family: 'Poppins', sans-serif;
-    color: white;
     font-style: italic;
     text-align: center;
     font-weight: 400;
