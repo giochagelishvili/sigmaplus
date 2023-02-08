@@ -11,11 +11,8 @@ html {
 }
 
 body {
-    background-attachment: fixed;
-    background-color: rgb(58, 61, 64);
-    background-image: radial-gradient(circle, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
-    background-repeat: no-repeat;
     overflow-x: hidden;
+    background-color: rgb(24, 23, 25);
 }
 
 #typography-section-quote {
@@ -356,6 +353,14 @@ a {
 }
 
 @media screen and (min-width: 1375px) {
+    
+    body {
+        background-attachment: fixed;
+        background-color: rgb(58, 61, 64);
+        background-image: radial-gradient(circle, rgb(58, 61, 64) 0%, rgb(24, 23, 25) 100%);
+        background-repeat: no-repeat;
+    }
+
     /* HEADER STYLES */
 
     header {
