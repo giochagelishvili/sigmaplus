@@ -489,4 +489,8 @@ a {
     .monthly-statistics-grid {
         align-items: stretch;
     }
+
+    .monthly-statistics-container {
+        min-width: 20%;
+    }
 }
